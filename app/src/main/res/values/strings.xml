@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Umbrella_Jaime</string>
+    <string name="State_text"> State, ST </string>
+    <string name="Temperature_text"> 11 </string>
+
+    <string-array name="measure_array">
+        <item>Celsius</item>
+        <item>Fahrenheit </item>
+
+
+    </string-array>
+
+    <string name="WeatherStatus_text"> Weather status </string>
+    <string name="Ibtn_Settings_text">Settings to configure zip code and metrics.</string>
+    <string name="txt_today">Today</string>
+    <string name="txt_tomorrow">Tomorrow</string>
+    <string name="txt_zip">Zip</string>
+    <string name="txt_AppTitle">Umbrella</string>
+    <string name="exit_string_ibtn_settings_text">Exit settings.</string>
+    <string name="txt_zipHint">55431</string>
+    <string name="txt_unitslabel">Units</string>
+    <string name="txt_metrics">Farenheit</string>
+    <string name="txt_clear">Clear</string>
+
+
+    <string name="baseURL">https://api.openweathermap.org/data/2.5/</string>
+</resources>

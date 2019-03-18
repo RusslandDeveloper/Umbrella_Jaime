@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:background="@color/cardview_dark_background"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="49dp"
+            android:text="@string/txt_AppTitle"
+            android:textColor="@color/White_font"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/Ibtn_settings_frag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="296dp"
+            android:layout_marginRight="296dp"
+            android:contentDescription="@string/exit_string_ibtn_settings_text"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="40pt"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/txtV_zipLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginEnd="298dp"
+                android:layout_marginRight="298dp"
+                android:layout_marginBottom="54dp"
+                android:text="@string/txt_zip"
+                android:textColor="@color/Black_font"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtE_zip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginEnd="278dp"
+                android:layout_marginRight="278dp"
+                android:layout_marginBottom="14dp"
+                android:hint="@string/txt_zipHint"
+                android:inputType="number"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+<View
+    android:layout_width="376dp"
+    android:layout_height="2dp"
+    android:layout_gravity="center"
+    android:background="@color/cardview_shadow_start_color"
+
+
+    />
+
+    <android.support.v7.widget.CardView
+        android:layout_height="40pt"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/txtV_metricLabel"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="277dp"
+                android:layout_marginRight="277dp"
+                android:layout_marginBottom="49dp"
+                android:text="@string/txt_unitslabel"
+                android:textColor="@color/Black_font"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/measure_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="214dp"
+                android:layout_marginRight="214dp"
+                android:layout_marginBottom="19dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <View
+        android:layout_width="376dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/cardview_shadow_start_color"
+
+
+        />
+
+
+</LinearLayout>
